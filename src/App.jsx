@@ -6,6 +6,8 @@ import Hero from "./components/Hero";
 import Cocktails from "./components/Cocktails";
 import About from "./components/About";
 import Art from "./components/Art";
+import Menu from "./components/Menu";
+import Contact from "./components/Contact";
 
 // We register the pluging within the app because this gsap plugins aren't automatically active we have to register them.
 // This line make sure that both plugins are ready to use globally across the app
@@ -19,6 +21,8 @@ const App = () => {
       <Cocktails />
       <About />
       <Art />
+      <Menu />
+      <Contact />
     </main>
   );
 };
